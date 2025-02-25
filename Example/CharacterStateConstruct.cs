@@ -8,7 +8,7 @@ public class CharacterStateConstruct : State
 
     public override void ExecuteEnter()
     {
-        //An example of accessing the Character Brain to do something. This could be accessing Data or other referenced like configs or components (if it is an MB)
+        //An example of accessing the Character Brain to do something. This could be accessing Data or other references like configs or components (if it is an MB)
         Debug.Log("Character " + _brain.Data.DisplayName + " created!");
         
         //Example of then transitioning to another State using an Enum
